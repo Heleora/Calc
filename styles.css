@@ -13,7 +13,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+button {
 	margin: 0;
     padding: 0;
 }
@@ -38,3 +39,44 @@ img {
 address {
 	font-style: normal;
 }
+
+.keyboard {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.btn {
+    padding: 5px;
+    cursor: pointer;
+    }
+
+.btn--number {
+    width: 33%;
+}
+
+.btn--operators {
+    width: 50%;
+}
+
+.number-input, .title {
+    margin-bottom: 20px;
+}
+
+.number-input {
+    padding: 5px;
+    width: 220px;
+}
+
+.keyboard-numbers, .keyboard-operators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80px;
+}
+
+.keyboard-operators {
+    
+    width: 50px;
+}
+
